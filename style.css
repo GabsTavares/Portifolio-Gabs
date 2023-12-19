@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.btn:hover{background-color: blue; 
+    height: 30 px
+
+}
+.primeira{   
+    height: 50px;
+    font-size: medium;    
+    font-weight: 200;   
+    padding: 0px;   
+    background-color: rgb(99, 126, 118); 
+    color: #edeaea;  
+    display: flex;   
+    justify-content: space-between;   
+    align-items: center;
+    padding-left: 10px;
+ } 
+ #foto{
+    border-radius: 150px;
+ }
+ .segunda{
+    background-color: #edeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 25px;
+ }
+ .terceira{
+    background-color: #FFFF;
+ }
+.quarta{
+    background-color: #edeaea;
+    height: 300px;
+}
+.titulo{
+    padding: 15px;
+    color: #C69774;
+}
+.Bio{
+    color: black;
+    font-size: 16px;
+    max-width: 490px;
+    text-align: center;
+}
+.quadradinhos{
+    height: 100px;
+    width: 150px;
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 0px;
+    align-items: center;
+   background-color: #FFEFE8;
+   text-align: center;
+   padding: 20px;
+   color: rgb(99, 126, 118);
+
+}
+.quadradao{
+   height: 250px;
+    display: flex;  
+    text-align: center;
+    align-items: center;
+   
+}
+a:visited {
+    color: rgb(99, 126, 118);
+  }
+.quadradinhos:hover {
+    width: 200px;
+    height: 120px;
+  }
+.quadradinhos:first-child{
+    margin-left:250px;
+}
+#joguinho{
+    margin-left: 380px;
+    margin-top: 50px;
+
+}
+#textoImagem{
+    margin-left: 400px;
+}
